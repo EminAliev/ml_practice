@@ -1,0 +1,11 @@
+from enum import Enum
+
+class Colors:
+    WHITE = (255, 255, 255)
+    BLACK = (0, 0, 0)
+    GREEN = (0, 255, 0)
+
+
+class Button(Enum):
+    Left = 1
+    Right = 3
